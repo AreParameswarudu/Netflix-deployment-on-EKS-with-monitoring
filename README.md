@@ -18,14 +18,14 @@ Grafana's dashboard:
 <img width="900" height="328" alt="Screenshot 2025-08-12 014242" src="https://github.com/user-attachments/assets/acd886c1-d04a-46ed-b99b-cc5248c2bc53" />
 
 
-## Situation:  
-  A Netflix prototype application to be hosted.  
-  Use of k8s pods for hosting and making it haighly available, resilient to increased load.  
-  Needs to have a monitoring tools to be setup for monitoring the k8s cluster.  
+## 💻 Situation:  
+  A **Netflix prototype** application to be hosted.  
+  Use of **k8s** pods for hosting and making it haighly available, resilient to increased load.  
+  Needs to have a monitoring tools to be setup for **monitoring the k8s cluster**.  
   Deployment sholud have no manual interventions.  
-  needs to have Contineous file scans and quality checks and docker images scan.  
+  needs to have **Contineous file scans and quality checks and docker images scan**.  
 		
-## Task:
+## 🕵️‍♂️ Task:
   Application deployment, npm dependencies, quality checks.  
   Docker image creations, webhooks, CI and CD pipeline.  
   k8s cluster for hosting the application with deployment and services objects.  
@@ -33,7 +33,7 @@ Grafana's dashboard:
   docker scout for image scanning.  
   monitoring tools to monitor k8s cluster.  
 
-## Actions:
+## 🏋️‍♂️ Actions:
   github for version control, and use of webhooks to listen for changes or pulls.  
   AWS eks for k8s cluster setup using terraform with jenkins pipelie with this pipelie is parameterized.  
   sonarqube scanner, owasp, docker scout for quality, file, image checks.  
@@ -42,7 +42,7 @@ Grafana's dashboard:
   Laod balancer, r53 for serving the application to the users.  
   Prometheus and grafana setups with helm charts in EKS cluster for realtime monitoring.  
 
-## Result:
+## 😎 Result:
   Netflix application, with zero to no downtime.  
   Contineous interaction and Contineous Deployment.  
   pipelie with no manual interventions, with use of webhooks.  
